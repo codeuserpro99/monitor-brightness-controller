@@ -42,8 +42,3 @@ pip install pyinstaller && ^
 pyinstaller --onefile --noconsole --icon="icon.ico" brightness_controller.py
 
 📂 The compiled .exe will appear inside the dist/ folder:
-
-
-
-
-
