@@ -31,5 +31,19 @@ A lightweight Python GUI tool to control external monitor brightness using the `
 - No Python needed
 
 
+---
+
+## 🏗️ Build the EXE Yourself
+
+Want to build your own `.exe` from the Python script?
+
+```cmd
+pip install pyinstaller && ^
+pyinstaller --onefile --noconsole --icon="icon.ico" brightness_controller.py
+
+📂 The compiled .exe will appear inside the dist/ folder:
+
+
+
 
 
